@@ -25,7 +25,7 @@ msg['From'] = Header("上海树莓派", 'utf-8')
 msg['To'] = Header("树莓派提醒", 'utf-8')
 msg['Subject'] = Header("这是一个测试邮件", 'utf-8')
 
-server.set_debuglevel(1)
+# server.set_debuglevel(1)
 server.login(from_addr, password)
 server.sendmail(from_addr, [to_addr], msg.as_string())
 server.quit()
