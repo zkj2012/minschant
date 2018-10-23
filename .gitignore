@@ -1,2 +1,5 @@
 #忽略nogit文件夹下的所有文件
 nogit/
+
+#忽略face文件夹下的jpg文件
+face/**/*.jpg
