@@ -7,3 +7,6 @@ face/**/*.jpg
 #忽略所有音频文件
 *.wav
 *.mp3
+
+#忽略python缓存
+__pycache__
