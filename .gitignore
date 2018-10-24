@@ -3,3 +3,7 @@ nogit/
 
 #忽略face文件夹下的jpg文件
 face/**/*.jpg
+
+#忽略所有音频文件
+*.wav
+*.mp3
